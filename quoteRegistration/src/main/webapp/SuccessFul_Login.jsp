@@ -8,8 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%!String name="Admin"; %>
-<%! String act="disabled"; %>
+<%String name=request.getAttribute("user").toString();%>
 <form action="" method="post">
 <table>
 <%if("Admin".equals(name)){ %>

@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Successful_Login</servlet-name>
+  	<display-name>Successful_Login</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.Successful_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Successful_Login</servlet-name>
+  	<url-pattern>/Successful_Login</url-pattern>
+  </servlet-mapping>
 </web-app>
