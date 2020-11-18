@@ -7,10 +7,10 @@ public class Policy_Questions {
 	   private int Pol_Ques_Seg;
 	   private String Bus_Seg_Id;
 	   private String Pol_Ques_Desc;
-	   private String Pol_Ques_Ans_1;
-	   private String Pol_Ques_Ans_2;
-	   private String Pol_Ques_Ans_3;
-	   private String Pol_Ques_Ans_4;
+	   private String Pol_Ques_Ans1;
+	   private String Pol_Ques_Ans2;
+	   private String Pol_Ques_Ans3;
+	   private String Pol_Ques_Ans4;
 	   private int Pol_Ques_Ans1_weightage;
 	   private int Pol_Ques_Ans2_weightage;
 	   private int Pol_Ques_Ans3_weightage;
@@ -25,10 +25,10 @@ public class Policy_Questions {
 		this.Pol_Ques_Seg = pol_Ques_Seg;
 		this.Bus_Seg_Id = bus_Seg_Id;
 		this.Pol_Ques_Desc = pol_Ques_Desc;
-		this.Pol_Ques_Ans_1 = pol_Ques_Ans_1;
-		this.Pol_Ques_Ans_2 = pol_Ques_Ans_2;
-		this.Pol_Ques_Ans_3 = pol_Ques_Ans_3;
-		this.Pol_Ques_Ans_4 = pol_Ques_Ans_4;
+		this.Pol_Ques_Ans1 = pol_Ques_Ans_1;
+		this.Pol_Ques_Ans2 = pol_Ques_Ans_2;
+		this.Pol_Ques_Ans3 = pol_Ques_Ans_3;
+		this.Pol_Ques_Ans4 = pol_Ques_Ans_4;
 		this.Pol_Ques_Ans1_weightage = pol_Ques_Ans1_weightage;
 		this.Pol_Ques_Ans2_weightage = pol_Ques_Ans2_weightage;
 		this.Pol_Ques_Ans3_weightage = pol_Ques_Ans3_weightage;
@@ -58,29 +58,29 @@ public class Policy_Questions {
 	public void setPol_Ques_Desc(String pol_Ques_Desc) {
 		Pol_Ques_Desc = pol_Ques_Desc;
 	}
-	public String getPol_Ques_Ans_1() {
-		return Pol_Ques_Ans_1;
+	public String getPol_Ques_Ans1() {
+		return Pol_Ques_Ans1;
 	}
-	public void setPol_Ques_Ans_1(String pol_Ques_Ans_1) {
-		Pol_Ques_Ans_1 = pol_Ques_Ans_1;
+	public void setPol_Ques_Ans1(String pol_Ques_Ans_1) {
+		Pol_Ques_Ans1 = pol_Ques_Ans_1;
 	}
-	public String getPol_Ques_Ans_2() {
-		return Pol_Ques_Ans_2;
+	public String getPol_Ques_Ans2() {
+		return Pol_Ques_Ans2;
 	}
-	public void setPol_Ques_Ans_2(String pol_Ques_Ans_2) {
-		Pol_Ques_Ans_2 = pol_Ques_Ans_2;
+	public void setPol_Ques_Ans2(String pol_Ques_Ans_2) {
+		Pol_Ques_Ans2 = pol_Ques_Ans_2;
 	}
-	public String getPol_Ques_Ans_3() {
-		return Pol_Ques_Ans_3;
+	public String getPol_Ques_Ans3() {
+		return Pol_Ques_Ans3;
 	}
-	public void setPol_Ques_Ans_3(String pol_Ques_Ans_3) {
-		Pol_Ques_Ans_3 = pol_Ques_Ans_3;
+	public void setPol_Ques_Ans3(String pol_Ques_Ans_3) {
+		Pol_Ques_Ans3 = pol_Ques_Ans_3;
 	}
-	public String getPol_Ques_Ans_4() {
-		return Pol_Ques_Ans_4;
+	public String getPol_Ques_Ans4() {
+		return Pol_Ques_Ans4;
 	}
-	public void setPol_Ques_Ans_4(String pol_Ques_Ans_4) {
-		Pol_Ques_Ans_4 = pol_Ques_Ans_4;
+	public void setPol_Ques_Ans4(String pol_Ques_Ans_4) {
+		Pol_Ques_Ans4 = pol_Ques_Ans_4;
 	}
 	public int getPol_Ques_Ans1_weightage() {
 		return Pol_Ques_Ans1_weightage;

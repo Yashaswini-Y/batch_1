@@ -14,11 +14,11 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" name="psw" required><br>
 <label>Role</label>
-             <select id = "myList">
+             <select id = "myList" name="Role_Code">
               <option value = ""></option>
                <option value = "Admin">Admin</option>
-               <option value = "User">User</option>
                <option value = "Agent">Agent</option>
+               <option value = "User">User</option>
              </select>
 </form>
 </body>

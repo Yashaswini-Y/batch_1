@@ -10,8 +10,58 @@
   	<description></description>
   	<servlet-class>com.insurance.quote.application.Successful_Login</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>PolicyCreation</servlet-name>
+  	<display-name>PolicyCreation</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.PolicyCreation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Account_Creation</servlet-name>
+  	<display-name>Account_Creation</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.Account_Creation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Report_Generation</servlet-name>
+  	<display-name>Report_Generation</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.Report_Generation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Profile_Creation</servlet-name>
+  	<display-name>Profile_Creation</display-name>
+  	<description></description>
+  	<servlet-class>com.insurance.quote.application.Profile_Creation</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Successful_Login</servlet-name>
   	<url-pattern>/Successful_Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PolicyCreation</servlet-name>
+  	<url-pattern>/PolicyCreation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Account_Creation</servlet-name>
+  	<url-pattern>/Account_Creation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Report_Generation</servlet-name>
+  	<url-pattern>/Report_Generation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Profile_Creation</servlet-name>
+  	<url-pattern>/Profile_Creation</url-pattern>
   </servlet-mapping>
 </web-app>

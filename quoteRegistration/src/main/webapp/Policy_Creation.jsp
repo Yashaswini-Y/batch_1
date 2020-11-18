@@ -14,7 +14,7 @@
 <tr>
 <td width="100%">
 
-<form name="PolicyCreation">
+<form name="Policy_Creation" action="Login">
 
 <h2 align="center"><font>Policy Creation</font></h2>
 <tr><td>Policy Question Id</td><td>"${PolicyCreation.Pol_Ques_Id}"</td></tr>

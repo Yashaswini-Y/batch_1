@@ -25,7 +25,6 @@ private static Connection conn=null;
 		String url="jdbc:oracle:thin:@localhost:1521:xe";
 		String user="System";
 		String pass="System";
-		DriverManager.deregisterDriver(new OracleDriver());
 		conn=DriverManager.getConnection(url,user,pass);
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block

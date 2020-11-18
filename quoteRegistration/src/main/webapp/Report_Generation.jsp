@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<form action="ReportGen" method="post">
+<form action="Report_Generation" method="post">
  Account number<input type="text" name="account number"><br>
  <input type="submit" value="view">
  </form>
